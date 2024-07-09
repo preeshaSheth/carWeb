@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ForCarSake</title>
+        <title>ISKCAR</title>
         <meta name="description" content="Car Sale Company brand theme">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Google Fonts-->
@@ -20,10 +20,20 @@
         <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
+      <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload">
+    <div class="circle">
+      <img src="./img/logo (2).png" alt="Logo">
+    </div>
+    
+  </div>
      <!--NAV-->
      <nav class="navbar navbar-expand-lg px-3" id="navBar">
          <a href="#" class="navbar-brand">
-             <img src="./img/logo.png" alt="ForCarSake logo">
+             <img src="./img/logo (2).png" alt="ISKCAR logo">
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navList">
             <div class="toggler-btn">
@@ -38,48 +48,61 @@
                     <li class="nav-item active">
                         <a href="#navBar" class="nav-link">Home</a>
                     </li>
+                    <li class="nav-item active">
+                        <a href="#About" class="nav-link">About</a>
+                    </li>
                     <li class="nav-item ">
                         <a href="#promise" class="nav-link">Our promise</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#catalogue" class="nav-link">Catalogue</a>
                     </li>
                     <li class="nav-item">
                         <a href="#featured" class="nav-link">Featured</a>
                     </li> 
                     <li class="nav-item ">
                         <a href="#service" class="nav-link">Services</a>
-                    </li>               
+                    </li>    
+                    <li class="nav-item">
+                        <a href="#Contact" class="nav-link">Contact</a>
+                    </li>           
                 </ul>
             </div>
     
 
-      <!--social icons-->
-      <div class="nav-icons d-none d-lg-block">
-          <a href="#" class="nav-icon"><i class="fab fa-facebook-square"></i></a>
-
-      </div>
-      <div class="nav-icons d-none d-lg-block">
-        <a href="#" class="nav-icon"><i class="fab fa-twitter-square"></i></a>
+<!-- Social icons -->
+    <div class="nav-icons d-none d-lg-block">
+        <a href="tel:+91.922 415 2030" class="nav-icon"><i class="fas fa-phone-square-alt"></i></a>
     </div>
     <div class="nav-icons d-none d-lg-block">
-        <a href="#" class="nav-icon"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://wa.me/1234567890" class="nav-icon"><i class="fab fa-whatsapp-square"></i></a>
     </div>
-</nav>
+    <div class="nav-icons d-none d-lg-block">
+        <a href="mailto:devang@iskcar.com" class="nav-icon"><i class="fas fa-envelope-square"></i></a>
+    </div>
+    </nav>
+
 
   <!--header-->
     <header class="header" id="header">
        <div class="container-fluid">
            <div class="row height-max align-items-center">
                <div class="col md-9 ml-auto text-center pr-5">
-                   <h1 class="title-heading d-inline-block p-2">ForCarSake</h1><br>
-                   <h2 class="title-heading d-inline-block p-2 ">Provides its customers with great car-buying 
-                    <br>and car-servicing experiences</h2> <br>
-                    <a href="#catalogue" class="btn">Take a look</a>
+                   <h1 class="title-heading d-inline-block p-2 font-size: 74px !important;">ISKCAR</h1><br>
+                   <h2 class="title-heading d-inline-block p-2" style="font-style: italic; font-weight: bold; text-transform: none;">"India Save Karo On Each CAR"
+                    <br></h2> <br>
+                    <a href="#Contact" class="btn">enquire</a>
                </div>
            </div>
        </div>
     </header>
+
+<!-- About Us Section -->
+<section id="About" class="py-5">
+    <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+        <h1 class="font-weight-bold mx-1" style="margin-bottom: 30px;">About<span> Us</span></h1>
+    </div>
+    <p style="max-width: 600px; margin-left: auto; margin-right: auto; text-align: center; width: 100%;">
+        <b>At ISKCAR, we believe in "Seedhi Baat, No Bakwass." Since our inception in 2000, our name, derived from ISK - ISKCON (Temple) and CAR - car dealing, reflects our straightforward approach and dedication to excellence. As direct sales associates, we specialize in the buying and selling of new and used cars of all brands. Our commitment is to provide our clients with the best deals and unparalleled service, ensuring a seamless and satisfying experience every time.</b>
+    </p>
+</section>
 
      <!--PROMISE section-->
   <section id="promise" class="py-5">
@@ -98,8 +121,8 @@
                      <h5 class="text-uppercase font-weight-bold my-3">
                         Proven reliability</h5>
                         <div class="promise-underline"></div>
-                        <p class="w-100 mx-auto text-muted">
-                            Unum putant ad eum, mea cu iusto oportere. Sumo periculis voluptatum ea est, et dicant fastidii platonem pri. 
+                        <p class="w-100 mx-auto">
+                            Count on our proven track record of reliability. With years of trusted service, we ensure your vehicle receives the best care and attention it deserves.
                         </p>
                  </div>  <!--END item-->
 
@@ -111,8 +134,8 @@
                     <h5 class="text-uppercase font-weight-bold my-3">
                         Trained personnel</h5>
                        <div class="promise-underline"></div>
-                       <p class="w-100 mx-auto text-muted">
-                           Unum putant ad eum, mea cu iusto oportere. Sumo periculis voluptatum ea est, et dicant fastidii platonem pri. 
+                       <p class="w-100 mx-auto">
+                        Our team of highly trained personnel is dedicated to excellence. They bring expertise and professionalism to every service, ensuring your vehicle is in expert hands.
                        </p>
                 </div>  <!--END item-->
 
@@ -125,421 +148,27 @@
                        
                         Competitive pricing</h5>
                        <div class="promise-underline"></div>
-                       <p class="w-100 mx-auto text-muted">
-                           Unum putant ad eum, mea cu iusto oportere. Sumo periculis voluptatum ea est, et dicant fastidii platonem pri. 
+                       <p class="w-100 mx-auto">
+                        Experience competitive pricing without compromising on quality. We offer transparent pricing structures that provide value for your investment in automotive care. 
                        </p>
                 </div>  <!--END item-->
 
                 <!--promise item-->
                 <div class="col-sm-10 col-md-6 col-lg-3 text-center my-3">
                     <a href="#" class="promise-icon p-2 rounded-circle">
-                       <i class="fas fa-headset fa-fw"></i>
+                       <i class="fas fa-bolt fa-fw"></i>
                     </a>
                     <h5 class="text-uppercase font-weight-bold my-3">
                        
-                        Free support</h5>
+                        Fast Serice</h5>
                        <div class="promise-underline"></div>
-                       <p class="w-100 mx-auto text-muted">
-                           Unum putant ad eum, mea cu iusto oportere. Sumo periculis voluptatum ea est, et dicant fastidii platonem pri. 
+                       <p class="w-100 mx-auto">
+                        Experience swift and efficient service with us. Our commitment to fast turnaround times ensures your vehicle is back on the road promptly, minimizing downtime.
                        </p>
                 </div>  <!--END item-->
           </div>
       </div>
   </section>
-
-  <!--CATALOGUE section-->
-  <section id="catalogue" class="py-5">
-      <div class="container pb-3 anim"> 
-    <div class="container text-center">
-        <div class="row mb-5">
-            <div class="col d-flex flex-wrap text-uppercase justify-content-center">
-                <h1 class="font-weight-bold mx-1">Our <span>Catalogue</span></h1>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-10 mx-auto col-md-12 d-flex justify-content-center">
-                <button class="btn text-uppercase mx-1 filter-btn" data-filter="all">All</button>
-                <button class="btn text-uppercase mx-1 filter-btn" data-filter="european">European</button>
-                <button class="btn text-uppercase mx-1 filter-btn" data-filter="american">American</button>
-                <button class="btn text-uppercase mx-1 filter-btn" data-filter="japanese">Japonese</button>
-            </div>
-        </div>
-
-        <!--CARS-->
-          <div class="row catalogue-container" id="car-container">
-
-              <!--car item 1-->
-              <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                  <div class="card car-card">
-                      <img src="./img/european/audi-r8-v10-plus-1555775_1280.jpg" class="card-img-top car-img" alt="Audi">
-                      
-                      <!--card body-->
-                      <div class="card-body">
-                          <div class="car-info d-flex justify-content-between">
-                            <!--first flex child-->
-                              <div class="car-text text-uppercase">
-                                  <h6 class="font-weight-bold">Producer</h6>
-                                  <h6>Model</h6>
-                              </div> 
-                            <!--second flex child-->
-                            <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 12,000</span></h5>
-                          </div>
-                      </div>
-                       <!--END card body-->
-
-                        <!--card footer-->
-                        <div class="card-footer text-capitalize d-flex justify-content-between">
-                            <p><span><i class="fas fa-car"></i></span>Audi</p>
-                            <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                            <p><span><i class="fas fa-gas-pump"></i></span>54</p>
-                        </div>
-                         <!--END card footer-->
-                  </div>
-              </div>
-              <!--END car item-->
-
-              <!--car item-->
-              <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/european/aston-martin.jpg" class="card-img-top car-img" alt="Aston-martin">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 13,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Aston-Martin</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>51</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/european/fiat-124-spider-4185536_1280.jpg" class="card-img-top car-img" alt="Fiat">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 12,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Fiat Spider</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>50</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/european/jaguar.jpg" class="card-img-top car-img" alt="Jaguar">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 16,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Jaguar</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>55</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/european/mercedes (2).jpg" class="card-img-top car-img" alt="Mercedes">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 15,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Mercedes</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>52</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/european/opel.jpg" class="card-img-top car-img" alt="Opel">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 10,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Opel</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>50</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/american/cadillac.jpg" class="card-img-top car-img" alt="Cadillac">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 15,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Cadillac</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>51</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/american/chevrolet.jpg" class="card-img-top car-img" alt="Chevrolet">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 11,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Chevrolet</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>50</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/american/gmc-2229520_1280.jpg" class="card-img-top car-img" alt="GMC">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 15,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>GMC</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>51</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/japonese/honda-glias.jpg" class="card-img-top car-img" alt="Honda-Glias">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 13,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Honda-Glias</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>53</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/japonese/mitsubishi-colt2247441_1280.jpg" class="card-img-top car-img" alt="Mitsubishi-Colt">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 11,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Mitsubishi-Colt</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>50</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            <!--car item-->
-            <div class="col-11 mx-auto my-3 col-md-6 col-lg-4">
-                <div class="card car-card">
-                    <img src="./img/japonese/Nissan Altima.jpg" class="card-img-top car-img" alt="Nissan Altima">
-                    
-                    <!--card body-->
-                    <div class="card-body">
-                        <div class="car-info d-flex justify-content-between">
-                          <!--first flex child-->
-                            <div class="car-text text-uppercase">
-                                <h6 class="font-weight-bold">Producer</h6>
-                                <h6>Model</h6>
-                            </div> 
-                          <!--second flex child-->
-                          <h5 class="car-value align-self-center py-2 px-3"><span class="car-price">€ 14,000</span></h5>
-                        </div>
-                    </div>
-                     <!--END card body-->
-
-                      <!--card footer-->
-                      <div class="card-footer text-capitalize d-flex justify-content-between">
-                          <p><span><i class="fas fa-car"></i></span>Nissan Altima</p>
-                          <p><span><i class="fas fa-cogs"></i></span>automatic</p>
-                          <p><span><i class="fas fa-gas-pump"></i></span>52</p>
-                      </div>
-                       <!--END card footer-->
-                </div>
-            </div>
-            <!--END car item-->
-
-            
-
-
-          </div>
-
-        <!--end CARS-->
-
-
-
-      </div>
-  </section>
-
   
         <!--FEATURED section-->
 
@@ -584,60 +213,84 @@
         <div class="row ">
                <!--service item-->
                <div class="col-sm-10 col-md-6 col-lg-3 text-center my-3">
-                   <a href="#" class="service-icon p-2 rounded-circle">
-                      <i class="fas fa-tools fa-fw"></i>
+                <a href="#" class="service-icon p-2 rounded-circle">
+                      <i class="fas fa-shield-alt fa-fw"></i>
                    </a>
                    <h5 class="text-uppercase font-weight-bold my-3">
-                     Engine</h5>
+                     Cashless insurance</h5>
                       <div class="service-underline"></div>
                       <p class="w-100 mx-auto">
-                          Unum putant ad eum, mea cu iusto oportere. Sumo periculis voluptatum ea est, et dicant fastidii platonem pri. 
+                        Enjoy peace of mind with our cashless insurance services. We handle claims swiftly and efficiently, ensuring minimal disruption to your schedule.
                       </p>
                </div>  <!--END item-->
 
                  <!--service item-->
                  <div class="col-sm-10 col-md-6 col-lg-3 text-center my-3">
                   <a href="#" class="service-icon p-2 rounded-circle">
-                     <i class="fas fa-car-battery fa-fw"></i>
+                     <i class="fas fa-id-card fa-fw"></i>
                   </a>
                   <h5 class="text-uppercase font-weight-bold my-3">
-                      Battery</h5>
+                      RTO</h5>
                      <div class="service-underline"></div>
                      <p class="w-100 mx-auto">
-                         Unum putant ad eum, mea cu iusto oportere. Sumo periculis voluptatum ea est, et dicant fastidii platonem pri. 
+                        Navigate bureaucratic processes effortlessly with our RTO services. We streamline vehicle registrations, transfers, and other formalities for your convenience. 
                      </p>
               </div>  <!--END item-->
 
                 <!--service item-->
                 <div class="col-sm-10 col-md-6 col-lg-3 text-center my-3">
                   <a href="#" class="service-icon p-2 rounded-circle">
-                     <i class="fas fa-charging-station fa-fw"></i>
+                     <i class="fas fa-tools fa-fw"></i>
                   </a>
                   <h5 class="text-uppercase font-weight-bold my-3">
                      
-                    Electronic system</h5>
+                    Accessories</h5>
                      <div class="service-underline"></div>
                      <p class="w-100 mx-auto">
-                         Unum putant ad eum, mea cu iusto oportere. Sumo periculis voluptatum ea est, et dicant fastidii platonem pri. 
+                        Personalize your vehicle with our extensive range of high-quality accessories. Enhance comfort, style, and functionality to suit your driving needs. 
                      </p>
               </div>  <!--END item-->
 
               <!--service item-->
               <div class="col-sm-10 col-md-6 col-lg-3 text-center my-3">
                   <a href="#" class="service-icon p-2 rounded-circle">
-                     <i class="fas fa-cog fa-fw"></i>
+                     <i class="fas fa-car fa-fw"></i>
                   </a>
                   <h5 class="text-uppercase font-weight-bold my-3">
                      
-                    Tyre service</h5>
+                    buying/selling NEW and USED cars</h5>
                      <div class="service-underline"></div>
                      <p class="w-100 mx-auto">
-                         Unum putant ad eum, mea cu iusto oportere. Sumo periculis voluptatum ea est, et dicant fastidii platonem pri. 
+                        Explore our seamless buying and selling solutions for both new and used cars. Trust our expertise to match you with the perfect vehicle or find a new owner for your current one. 
                      </p>
               </div>  <!--END item-->
         </div>
     </div>
 </section>
+
+ <!-- Contact section -->
+ <section id="Contact" section class="py-5">
+    <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+        <h1 class="font-weight-bold mx-1" style="margin-bottom: 5px;">Contact<span> Us</span></h1>
+    </div>
+    <div class="formcarry-container">
+        <form action="#" method="POST" class="formcarry-form">
+        <h5 class="text-uppercase font-weight-bold my-3">
+          <label for="name">Your Name</label></h5>
+          <input type="text" id="name" name="fullName" required />
+          <h5 class="text-uppercase font-weight-bold my-3">
+          <label for="email">Your Email Address</label></h5>
+          <input type="email" id="email" name="email" required />
+          <h5 class="text-uppercase font-weight-bold my-3">
+          <label for="message">enquiry</label></h5>
+          <textarea name="enquiry" id="enquiry" cols="30" rows="5"></textarea>
+  
+          <button type="submit">Send</button>
+        </form>
+      </div>
+  
+</section>
+
 
          <!--FOOTER-->
 
@@ -663,7 +316,7 @@
 
             <div class="col-lg-3 col-sm-10 copy ">
 
-                <p class="text-muted">&copy; Copyright |  <strong> ForCarSake </strong>  2020</p>
+                <p class="text-muted">&copy; Copyright |  <strong> ISKCAR </strong>  </p>
                </div>
             
             

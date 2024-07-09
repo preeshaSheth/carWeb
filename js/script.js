@@ -1,3 +1,20 @@
+'use strict';
+/**
+ * PRELOAD
+ * 
+ * loading will be end after document is loaded
+ */
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Select the preloader element
+    var preload = document.querySelector(".preload");
+  
+    // Add 'loaded' class after 3 seconds
+    setTimeout(function() {
+      preload.classList.add("loaded");
+    }, 4000); // 3000 milliseconds = 3 seconds
+  });
+  
 //Toggle navigation
 
 $(document).ready(function () {
